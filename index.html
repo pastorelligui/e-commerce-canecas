@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Caneca Criativa - Transforme seu café em uma obra de arte. Canecas personalizadas premium com design exclusivo e criativo.">
+    <meta name="keywords" content="canecas personalizadas, canecas criativas, canecas premium, presentes personalizados, canecas artesanais">
+    <meta name="author" content="Caneca Criativa">
+    <title>Caneca Criativa - Canecas Personalizadas Premium</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>☕ Caneca Criativa</h1>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="#inicio" class="nav-link">Início</a></li>
+                        <li><a href="#colecao" class="nav-link">Coleção</a></li>
+                        <li><a href="#personalize" class="nav-link">Personalize a Sua</a></li>
+                        <li><a href="#contato" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner Carrossel -->
+    <section class="banner-section" id="inicio">
+        <div class="carousel-container">
+            <div class="carousel-slide active">
+                <div class="banner-content">
+                    <h2 class="banner-title">Transforme seu café em uma obra de arte</h2>
+                    <p class="banner-subtitle">Canecas personalizadas com design exclusivo e qualidade premium</p>
+                    <a href="#colecao" class="btn-primary">Explorar Coleção</a>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div class="banner-content">
+                    <h2 class="banner-title">Criatividade em cada detalhe</h2>
+                    <p class="banner-subtitle">Personalize sua caneca com sua arte, foto ou mensagem especial</p>
+                    <a href="#personalize" class="btn-primary">Personalizar Agora</a>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div class="banner-content">
+                    <h2 class="banner-title">Qualidade que você pode sentir</h2>
+                    <p class="banner-subtitle">Materiais premium e acabamento impecável em cada peça</p>
+                    <a href="#colecao" class="btn-primary">Ver Produtos</a>
+                </div>
+            </div>
+            <button class="carousel-btn prev" id="prevBtn" aria-label="Slide anterior">‹</button>
+            <button class="carousel-btn next" id="nextBtn" aria-label="Próximo slide">›</button>
+            <div class="carousel-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Produtos -->
+    <section class="products-section" id="colecao">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossa Coleção</h2>
+                <p class="section-subtitle">Descubra canecas únicas que combinam estilo e funcionalidade</p>
+            </div>
+            <div class="products-grid" id="productsGrid">
+                <!-- Produtos serão inseridos via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Personalize -->
+    <section class="customize-section" id="personalize">
+        <div class="container">
+            <div class="customize-content">
+                <div class="customize-text">
+                    <h2 class="section-title">Personalize a Sua Caneca</h2>
+                    <p class="section-subtitle">Crie uma caneca única com sua arte, foto favorita ou mensagem especial. Nossa equipe de designers está pronta para transformar sua ideia em realidade.</p>
+                    <ul class="customize-features">
+                        <li>✨ Design exclusivo e personalizado</li>
+                        <li>🎨 Múltiplas opções de personalização</li>
+                        <li>📸 Adicione suas fotos favoritas</li>
+                        <li>💬 Mensagens e textos personalizados</li>
+                        <li>⚡ Entrega rápida e segura</li>
+                    </ul>
+                    <button class="btn-primary btn-whatsapp" id="customizeWhatsApp">
+                        Personalizar via WhatsApp
+                    </button>
+                </div>
+                <div class="customize-image">
+                    <div class="image-placeholder">
+                        <span>🎨</span>
+                        <p>Seu design aqui</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Depoimentos -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">O que nossos clientes dizem</h2>
+                <p class="section-subtitle">Experiências reais de quem escolheu Caneca Criativa</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"A caneca ficou perfeita! A qualidade é excepcional e o design ficou exatamente como eu imaginei. Super recomendo!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">M</div>
+                        <div class="author-info">
+                            <h4>Maria Silva</h4>
+                            <p>Cliente desde 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Presentei minha mãe com uma caneca personalizada e ela amou! O atendimento foi impecável e a entrega super rápida."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">J</div>
+                        <div class="author-info">
+                            <h4>João Santos</h4>
+                            <p>Cliente desde 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Melhor investimento! A caneca é linda, resistente e o design personalizado ficou incrível. Já encomendei mais duas!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">A</div>
+                        <div class="author-info">
+                            <h4>Ana Costa</h4>
+                            <p>Cliente desde 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>☕ Caneca Criativa</h3>
+                    <p>Transformando ideias em canecas únicas e personalizadas. Qualidade premium em cada detalhe.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#colecao">Coleção</a></li>
+                        <li><a href="#personalize">Personalize</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">📷 Instagram</a>
+                        <a href="#" class="social-link" aria-label="Facebook">👥 Facebook</a>
+                        <a href="#" class="social-link" aria-label="Pinterest">📌 Pinterest</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <a href="#" class="whatsapp-link" id="footerWhatsApp">
+                        💬 WhatsApp
+                    </a>
+                    <p class="footer-text">Atendimento de segunda a sexta, das 9h às 18h</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Caneca Criativa. Todos os direitos reservados.</p>
+                <p>Desenvolvido com ❤️ para amantes de café e criatividade</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
