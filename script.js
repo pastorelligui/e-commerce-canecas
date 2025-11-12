@@ -4,9 +4,9 @@ const WHATSAPP_NUMBER = '5511999999999'; // Exemplo: 5511999999999 (código do p
 // Imagens de fundo dos slides do carrossel
 // Substitua pelas URLs das suas imagens ou use caminhos locais (ex: 'images/banner1.jpg')
 const bannerImages = [
-    'images/banner1.jpg', // Imagem do primeiro slide
-    'images/banner2.jpg', // Imagem do segundo slide
-    'images/banner3.jpg'  // Imagem do terceiro slide
+    'https://cdn.pixabay.com/photo/2016/10/22/08/06/mug-holder-1760093_1280.jpg', // Imagem do primeiro slide
+    'https://cdn.pixabay.com/photo/2020/04/17/22/25/coffee-mug-5057116_1280.jpg', // Imagem do segundo slide
+    'https://cdn.pixabay.com/photo/2019/09/13/19/18/coffee-4474690_1280.jpg'  // Imagem do terceiro slide
 ];
 
 // Dados dos produtos
@@ -19,7 +19,7 @@ const products = [
         name: 'Caneca Minimalista Elegante',
         description: 'Design clean e sofisticado, perfeita para seu café da manhã especial.',
         price: 'R$ 49,90',
-        image: 'images/caneca1.png', // Substitua pela URL da imagem
+        image: 'https://thumbor.cartpanda.com/Yz-NTooOBZraMyYnjn7dPF7Ipac=/795x0/https://assets.mycartpanda.com/static/products_images/f0/5b/56/1745274495.jpg', // Substitua pela URL da imagem
         fallback: '☕' // Emoji usado se a imagem não carregar
     },
     {
@@ -27,7 +27,7 @@ const products = [
         name: 'Caneca Personalizada Premium',
         description: 'Alta qualidade com acabamento impecável. Ideal para presentes únicos.',
         price: 'R$ 59,90',
-        image: 'images/caneca2.png',
+        image: 'https://cdn.dooca.store/521/products/sdfgndsafg_640x640+fill_ffffff.jpg?v=1653333650&webp=0',
         fallback: '🎨'
     },
     {
@@ -35,7 +35,7 @@ const products = [
         name: 'Caneca Criativa Artesanal (Com Carinho)',
         description: 'Feita à mão com atenção aos detalhes. Cada peça é única e especial.',
         price: 'R$ 69,90',
-        image: 'images/caneca3.png',
+        image: 'https://cdn.awsli.com.br/600x700/2517/2517292/produto/373719617/36264am-a0x6fm83gj.jpg',
         fallback: '✨'
     },
     {
@@ -43,7 +43,7 @@ const products = [
         name: 'Caneca Luxo Dourada',
         description: 'Acabamento dourado metálico que adiciona elegância ao seu dia a dia.',
         price: 'R$ 79,90',
-        image: 'images/caneca4.png',
+        image: 'https://mimospersonalizadosstore.com.br/wp-content/uploads/2022/03/Caneca-Cromada-Dourada.jpg',
         fallback: '🌟'
     },
     {
@@ -51,7 +51,7 @@ const products = [
         name: 'Caneca Vintage Retrô',
         description: 'Estilo retrô com toque moderno. Perfeita para os amantes de design clássico.',
         price: 'R$ 54,90',
-        image: 'images/caneca5.png',
+        image: 'https://cdn.awsli.com.br/600x700/952/952032/produto/40203422/esmaltada-fusca1-0s1buwu5cz.png',
         fallback: '📻'
     },
     {
@@ -59,7 +59,7 @@ const products = [
         name: 'Caneca Inspiracional',
         description: 'Mensagens motivacionais que acompanham seu café e inspiram seu dia.',
         price: 'R$ 49,90',
-        image: 'images/caneca6.png',
+        image: 'https://acdn-us.mitiendanube.com/stores/001/399/404/products/1-25b86115664b0595c217053408565196-1024-1024.jpg',
         fallback: '💫'
     }
 ];
@@ -360,4 +360,5 @@ document.addEventListener('DOMContentLoaded', () => {
 // Console log para debug (remover em produção)
 console.log('☕ Caneca Criativa - Site carregado com sucesso!');
 console.log('📱 Número do WhatsApp configurado:', WHATSAPP_NUMBER);
+
 
